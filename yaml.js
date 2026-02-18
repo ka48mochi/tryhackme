@@ -33,3 +33,5 @@ Router.post("/", (req, res) => {
     attachWebSocket().of("/yaml").emit("yaml", "YAML data has been processed.");
   });
 });
+
+export default Router;
